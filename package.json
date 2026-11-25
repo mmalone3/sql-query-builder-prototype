@@ -1,0 +1,17 @@
+{
+  "name": "sql-query-builder-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A type-safe fluent SQL query builder prototype",
+  "type": "module",
+  "main": "./dist/sql_query_builder.js",
+  "types": "./dist/sql_query_builder.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "npm run build && node --test"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
